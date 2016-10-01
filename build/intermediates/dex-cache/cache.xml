@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_e4bf74f2e29e2d7a921d5c1b98d0cedc5a092486\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_879cab03f1c716124e698ba56784ac949a2b792b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ae17ef5756e2079151bb6d571c9796df3e06afbc">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d830ea6d826680b81ec42d9741713d2ebb4c94a5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_e9070fcb4a8fdeb3dbeda43f6eab10d771094857\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_3c8465b571edf479018e5122cf3a2f0352e11a9a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8ae2ed5a3865dcb32d6c7257d3c142e8be20c90d">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2fd129e9a032ffa278c9d226dd046e81f8986e20\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_0c762dc0b05933865dab8a9d38eed9193f8e6a39\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_3439e34c905ecce73dd11d765b10d6ee210c0f0c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_876797af2d516f56e0f60e52ff0fcd9d3f266d44\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_6f62f4424b470501eb566021338f86a15776aaf1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_dd3c25b55ee4193721dae52c9f3c30b9ad4b3c11\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_2f54a4d14ab61e670d717b7fdd0692d947705c78\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_c21ede8da0dfeaf9ac173c0c4232ed94e329a6a0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\.gradle\caches\modules-2\files-2.1\com.sun.mail\android-mail\1.5.5\53a2f927b235acb565dbe9314ececfb7e6d43020\android-mail-1.5.5.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="53a2f927b235acb565dbe9314ececfb7e6d43020">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\android-mail-1.5.5_01a5c3800322a96cbc0989bb2d44a0728ab2b013\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_324672192835f84549de2e9295cadb3e1ebcee05\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_2b36e394055e3a91dfe95c97756c70d88f20af56\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_7929b61012c62ab6e3a5ed3a9a4abb5528f9d29d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_3da1ef82ad183df2e33ccce3b9f2f12a97c98f76\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_f3892d38be9463c79f9180e296c09118fe4ef062\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_464e918af23532f4dc6465f89621d4e2e9710087\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_43a605c4e6c8f8329c984d803c50e1671b01076d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_8e8e20f01a8e6cdd7488d035d254154d4f288d6c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_43b7c63d49fd6d3444336532beb735533975e56f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\.gradle\caches\modules-2\files-2.1\com.sun.mail\android-activation\1.5.5\5442d5e05808145434b750c9f8a0c3f537383c5a\android-activation-1.5.5.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="5442d5e05808145434b750c9f8a0c3f537383c5a">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\android-activation-1.5.5_20a63c26f289a5f6c3305d84cefc12143384dac4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_1342c90e48e90451d65a266597df3cfaded0d100\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_61b092c84f6f9cb00b76484676e8fa4f3440246f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_968dd9976a93f8f9c9676111ae228cbf1eab9166\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="96e33a7aaee00ab64270e2a9887b8f9ef32c8b73">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.0_7f25eb3fc778a9e2401ee2dc918f9295c6b10acf\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\exploded-aar\com.mikhaellopez\circularimageview\3.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="a8340f8c17337c864648c13abe1416d34c80ec14">
+        <dex dex="C:\Users\Sacbe\Documents\Axel\AndroidStudio\PetagramRetrofitAxelSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mikhaellopez-circularimageview-3.0.2_446603756716eb1e1dcd63b3bf0981cc45955bf0\classes.dex" />
+    </item>
+
+</items>
