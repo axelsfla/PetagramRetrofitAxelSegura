@@ -17,4 +17,6 @@ public interface IRecyclerViewFragmentFotoPresenter {
 
     public void obtenerUserId(String userName);
 
+    //public void obtenerSeguidores();
+
 }

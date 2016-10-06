@@ -1,6 +1,7 @@
 package com.coursera.sacbe.petagramaxelsegura.fragment;
 
 import com.coursera.sacbe.petagramaxelsegura.adapter.MascotaAdaptador;
+import com.coursera.sacbe.petagramaxelsegura.pojo.FotoMascota;
 import com.coursera.sacbe.petagramaxelsegura.pojo.Mascota;
 
 import java.util.ArrayList;
@@ -12,7 +13,7 @@ public interface IRecyclerViewFavoritas {
 
     public void generarLinearLyout();
 
-    public MascotaAdaptador crearAdaptador(ArrayList<Mascota> mascotas);
+    public MascotaAdaptador crearAdaptador(ArrayList<FotoMascota> mascotas);
 
     public void inicializarAdaptador(MascotaAdaptador adaptador);
 

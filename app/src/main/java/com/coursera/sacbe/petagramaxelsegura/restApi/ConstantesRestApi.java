@@ -27,4 +27,9 @@ public final class ConstantesRestApi {
     public static final String KEY_GET_RECENT_MEDIA_USER_ID = "users/{user-id}/media/recent/";
     public static final String URL_GET_RECENT_MEDIA_USER_ID = KEY_GET_RECENT_MEDIA_USER_ID + INICIO_QUERY_STRING + KEY_ACCESS_TOKEN + ACCESS_TOKEN;
 
+    //Para obtener los seguidores
+    //https://api.instagram.com/v1/users/self/followed-by?access_token=ACCESS-TOKEN
+    public static final String KEY_GET_FOLLOWED_BY = "users/self/followed-by";
+    public static final String URL_GET_FOLLOWED_BY = KEY_GET_FOLLOWED_BY + INICIO_QUERY_STRING + KEY_ACCESS_TOKEN + ACCESS_TOKEN;
+
 }

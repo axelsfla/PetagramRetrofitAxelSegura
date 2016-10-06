@@ -17,4 +17,6 @@ public interface IRecyclerViewFragmentFoto {
 
     public void generarGridLyout();
 
+    //public void generarLinearLyout();
+
 }

@@ -8,4 +8,8 @@ public interface IRecyclerViewFragmentPresenter {
 
     public void mostrarMascotasRV();
 
+    public void obtenerSeguidores();
+
+    public void obtenerFotosSeguidores();
+
 }

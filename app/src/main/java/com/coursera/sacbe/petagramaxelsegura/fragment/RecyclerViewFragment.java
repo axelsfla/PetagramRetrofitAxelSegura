@@ -11,9 +11,13 @@ import android.view.ViewGroup;
 import android.support.v7.widget.RecyclerView;
 
 import com.coursera.sacbe.petagramaxelsegura.R;
+import com.coursera.sacbe.petagramaxelsegura.adapter.FotoMascotaAdaptador;
 import com.coursera.sacbe.petagramaxelsegura.adapter.MascotaAdaptador;
+import com.coursera.sacbe.petagramaxelsegura.pojo.FotoMascota;
 import com.coursera.sacbe.petagramaxelsegura.pojo.Mascota;
+import com.coursera.sacbe.petagramaxelsegura.presentador.IRecyclerViewFragmentFotoPresenter;
 import com.coursera.sacbe.petagramaxelsegura.presentador.IRecyclerViewFragmentPresenter;
+import com.coursera.sacbe.petagramaxelsegura.presentador.RecyclerViewFragmentFotoPresenter;
 import com.coursera.sacbe.petagramaxelsegura.presentador.RecyclerViewFragmentPresenter;
 
 import java.util.ArrayList;
@@ -22,9 +26,9 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class RecyclerViewFragment extends Fragment implements IRecyclerViewFragmentView{
+public class RecyclerViewFragment extends Fragment implements IRecyclerViewFragmentView {
 
-    private ArrayList<Mascota> mascotas;
+    private ArrayList<FotoMascota> mascotas;
     private RecyclerView listaMascotas;
     private IRecyclerViewFragmentPresenter presenter;
 
@@ -39,33 +43,8 @@ public class RecyclerViewFragment extends Fragment implements IRecyclerViewFragm
         return v;
     }
 
-    /*
-    public void inicializarListaMascotas(){
-
-        mascotas = new ArrayList<Mascota>();
-
-        mascotas.add(new Mascota(R.drawable.husky, "Miky", "Husky"));
-        mascotas.add(new Mascota(R.drawable.bostonterrier, "Terry", "Boston Terrier"));
-        mascotas.add(new Mascota(R.drawable.braco, "Toth", "Braco"));
-        mascotas.add(new Mascota(R.drawable.chowchow, "Oso", "Chow Chow"));
-        mascotas.add(new Mascota(R.drawable.bullterrier, "Seth", "Bull Terrier"));
-        mascotas.add(new Mascota(R.drawable.foxhound, "Lasha", "Foxhound"));
-        mascotas.add(new Mascota(R.drawable.goldenretriever, "Anubis", "Golden Retriever"));
-        mascotas.add(new Mascota(R.drawable.pastoraustraliano, "Boby", "Pastor Australiano"));
-        mascotas.add(new Mascota(R.drawable.perrocrestado, "Pelos", "Crestado"));
-
-    }
-    */
-
     @Override
-    public void generarLinearLyout() {
-        LinearLayoutManager llm = new LinearLayoutManager(getActivity());
-        llm.setOrientation(LinearLayoutManager.VERTICAL);
-        listaMascotas.setLayoutManager(llm);
-    }
-
-    @Override
-    public MascotaAdaptador crearAdaptador(ArrayList<Mascota> mascotas) {
+    public MascotaAdaptador crearAdaptador(ArrayList<FotoMascota> mascotas) {
         MascotaAdaptador adaptador = new MascotaAdaptador(mascotas, getActivity());
         return adaptador;
     }
@@ -73,5 +52,12 @@ public class RecyclerViewFragment extends Fragment implements IRecyclerViewFragm
     @Override
     public void inicializarAdaptador(MascotaAdaptador adaptador) {
         listaMascotas.setAdapter(adaptador);
+    }
+
+    @Override
+    public void generarLinearLyout() {
+        LinearLayoutManager llm = new LinearLayoutManager(getActivity());
+        llm.setOrientation(LinearLayoutManager.VERTICAL);
+        listaMascotas.setLayoutManager(llm);
     }
 }

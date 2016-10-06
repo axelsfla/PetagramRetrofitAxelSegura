@@ -17,6 +17,7 @@ import android.widget.Toast;
 import com.coursera.sacbe.petagramaxelsegura.adapter.MascotaAdaptador;
 import com.coursera.sacbe.petagramaxelsegura.fragment.IRecyclerViewFavoritas;
 import com.coursera.sacbe.petagramaxelsegura.fragment.IRecyclerViewFragmentView;
+import com.coursera.sacbe.petagramaxelsegura.pojo.FotoMascota;
 import com.coursera.sacbe.petagramaxelsegura.pojo.Mascota;
 import com.coursera.sacbe.petagramaxelsegura.presentador.IRecyclerViewFavoritasPresenter;
 import com.coursera.sacbe.petagramaxelsegura.presentador.IRecyclerViewFragmentPresenter;
@@ -89,7 +90,7 @@ public class MascotaFavorita extends AppCompatActivity implements IRecyclerViewF
     }
 
     @Override
-    public MascotaAdaptador crearAdaptador(ArrayList<Mascota> mascotas) {
+    public MascotaAdaptador crearAdaptador(ArrayList<FotoMascota> mascotas) {
         MascotaAdaptador adaptador = new MascotaAdaptador(mascotas, this);
         return adaptador;
     }

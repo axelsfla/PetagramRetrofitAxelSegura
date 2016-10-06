@@ -3,13 +3,14 @@ package com.coursera.sacbe.petagramaxelsegura.pojo;
 /**
  * Created by Sacbe on 10/09/2016.
  */
-public class FotoMascota {
+public class FotoMascota implements Comparable<FotoMascota> {
 
     private String id;
     private String nombreCompleto;
     private String urlFoto;
     private String urlFotoPerfil;
     private int likesFoto;
+    private String nombreUsuario;
 
     public FotoMascota(String urlFoto, String urlFotoPerfil,String nombreCompleto, int likesFoto) {
         this.urlFoto = urlFoto;
@@ -60,5 +61,25 @@ public class FotoMascota {
 
     public void setUrlFotoPerfil(String urlFotoPerfil) {
         this.urlFotoPerfil = urlFotoPerfil;
+    }
+
+    public String getNombreUsuario() {
+        return nombreUsuario;
+    }
+
+    public void setNombreUsuario(String nombreUsuario) {
+        this.nombreUsuario = nombreUsuario;
+    }
+
+    public int compareTo(FotoMascota o) {
+
+        return this.getLikesFoto()-o.getLikesFoto();
+
+        /*
+        if(this.getLikesFoto()>oLikes)
+            return 1;
+        else
+            return 0;
+        */
     }
 }

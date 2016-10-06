@@ -12,9 +12,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.coursera.sacbe.petagramaxelsegura.DetalleMascota;
+import com.coursera.sacbe.petagramaxelsegura.DetalleMascotaFoto;
 import com.coursera.sacbe.petagramaxelsegura.R;
 import com.coursera.sacbe.petagramaxelsegura.db.ConstructorMascotas;
+import com.coursera.sacbe.petagramaxelsegura.pojo.FotoMascota;
 import com.coursera.sacbe.petagramaxelsegura.pojo.Mascota;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -23,10 +26,10 @@ import java.util.ArrayList;
  */
 public class MascotaAdaptador extends  RecyclerView.Adapter<MascotaAdaptador.MascotaViewHolder> {
 
-    private ArrayList<Mascota> mascotas;
+    private ArrayList<FotoMascota> mascotas;
     private Activity activity;
 
-    public MascotaAdaptador(ArrayList<Mascota> mascotas, Activity activity){
+    public MascotaAdaptador(ArrayList<FotoMascota> mascotas, Activity activity){
         this.mascotas=mascotas;
         this.activity=activity;
     }
@@ -41,36 +44,44 @@ public class MascotaAdaptador extends  RecyclerView.Adapter<MascotaAdaptador.Mas
     //asocia cada elemento de la lista con cada view
     @Override
     public void onBindViewHolder(final MascotaViewHolder mascotaViewHolder, int position) {
-        final Mascota mascota = mascotas.get(position);
-        mascotaViewHolder.imgFoto.setImageResource(mascota.getFoto());
-        mascotaViewHolder.tvNombre.setText(mascota.getNombre());
-        mascotaViewHolder.tvRaza.setText(mascota.getRaza());
+        final FotoMascota fotoMascota = mascotas.get(position);
+        //mascotaViewHolder.imgFoto.setImageResource(mascota.getFoto());
 
-        //String raiting = "";
+        Picasso.with(activity)
+                .load(fotoMascota.getUrlFoto())
+                .placeholder(R.drawable.unam_pumas)
+                .into(mascotaViewHolder.imgFoto);
 
-        //if(mascota.getRaiting()>0)
-        //     raiting = String.valueOf(mascota.getRaiting());
+        mascotaViewHolder.tvNombre.setText(fotoMascota.getNombreCompleto());
+        mascotaViewHolder.tvRaza.setText(fotoMascota.getNombreUsuario());
 
-        mascotaViewHolder.tvRaiting.setText(String.valueOf(mascota.getRaiting())+" Likes");
+        String raiting = "";
+
+        //if(fotoMascota.getLikesFoto()>0)
+        raiting = String.valueOf(fotoMascota.getLikesFoto());
+
+        mascotaViewHolder.tvRaiting.setText(String.valueOf(raiting)); //mascota.getRaiting())+" Likes"
 
         mascotaViewHolder.imgFoto.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View v){
-                Toast.makeText(activity, mascota.getNombre(), Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(activity, DetalleMascota.class);
-                intent.putExtra(activity.getResources().getString(R.string.pFoto), mascota.getFoto());
-                intent.putExtra(activity.getResources().getString(R.string.pNombre), mascota.getNombre());
-                intent.putExtra(activity.getResources().getString(R.string.pRaza), mascota.getRaza());
 
-                String raiting = "";
+                Toast.makeText(activity, fotoMascota.getNombreCompleto(), Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(activity, DetalleMascotaFoto.class);
+                intent.putExtra(activity.getResources().getString(R.string.pUrl), fotoMascota.getUrlFoto());
+                intent.putExtra(activity.getResources().getString(R.string.pLikes), fotoMascota.getLikesFoto());
+//                intent.putExtra(activity.getResources().getString(R.string.pRaza), mascota.getRaza());
 
-                if(mascota.getRaiting()>0)
-                    raiting = String.valueOf(mascota.getRaiting());
+                //String raiting = "";
 
-                intent.putExtra(activity.getResources().getString(R.string.pRating), raiting);
+                /*if(mascota.getRaiting()>0)
+                    raiting = String.valueOf(mascota.getRaiting());*/
+
+                //intent.putExtra(activity.getResources().getString(R.string.pRating), raiting);
                 activity.startActivity(intent);
                 //activity.finish();
+
             }
         });
 
@@ -78,10 +89,11 @@ public class MascotaAdaptador extends  RecyclerView.Adapter<MascotaAdaptador.Mas
 
             @Override
             public void onClick(View v){
-                ConstructorMascotas constructorMascotas = new ConstructorMascotas(activity);
+               /* ConstructorMascotas constructorMascotas = new ConstructorMascotas(activity);
                 constructorMascotas.darLikeMascota(mascota);
                 mascotaViewHolder.tvRaiting.setText(String.valueOf(constructorMascotas.obtenerLikesMascota(mascota)) + " Likes");
-                Toast.makeText(activity, "Diste like a " + mascota.getNombre(), Toast.LENGTH_SHORT).show();
+                */
+                Toast.makeText(activity, "Diste like a " + fotoMascota.getNombreUsuario(), Toast.LENGTH_SHORT).show();
 
             }
         });

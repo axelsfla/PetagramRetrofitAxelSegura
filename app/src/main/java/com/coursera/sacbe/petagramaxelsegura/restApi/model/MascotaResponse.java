@@ -11,6 +11,7 @@ import java.util.ArrayList;
 public class MascotaResponse {
 
     private ArrayList<FotoMascota> mascotas;
+    //private ArrayList<>
     private FotoMascota userInformation;
 
     public ArrayList<FotoMascota> getMascotas() {

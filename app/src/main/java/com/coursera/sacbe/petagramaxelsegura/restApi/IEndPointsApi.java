@@ -19,4 +19,7 @@ public interface IEndPointsApi {
 
     @GET(ConstantesRestApi.URL_GET_RECENT_MEDIA_USER_ID)
     Call<MascotaResponse> getRecentMedia(@Path("user-id") Long userId);
+
+    @GET(ConstantesRestApi.URL_GET_FOLLOWED_BY)
+    Call<MascotaResponse> getFollowedBy();
 }

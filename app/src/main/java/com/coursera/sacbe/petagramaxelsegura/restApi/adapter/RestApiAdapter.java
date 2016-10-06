@@ -3,6 +3,7 @@ package com.coursera.sacbe.petagramaxelsegura.restApi.adapter;
 import com.coursera.sacbe.petagramaxelsegura.restApi.ConstantesRestApi;
 import com.coursera.sacbe.petagramaxelsegura.restApi.IEndPointsApi;
 import com.coursera.sacbe.petagramaxelsegura.restApi.deserializador.MascotaDeserializador;
+import com.coursera.sacbe.petagramaxelsegura.restApi.deserializador.SeguidorDeserializador;
 import com.coursera.sacbe.petagramaxelsegura.restApi.deserializador.UsuarioDeserializador;
 import com.coursera.sacbe.petagramaxelsegura.restApi.model.MascotaResponse;
 import com.google.gson.Gson;
@@ -41,6 +42,16 @@ public class RestApiAdapter {
         GsonBuilder gsonBuilder = new GsonBuilder();
 
         gsonBuilder.registerTypeAdapter(MascotaResponse.class, new UsuarioDeserializador());
+
+        return gsonBuilder.create();
+
+    }
+
+    public Gson construyeGsonDeserializadorSeguidores(){
+
+        GsonBuilder gsonBuilder = new GsonBuilder();
+
+        gsonBuilder.registerTypeAdapter(MascotaResponse.class, new SeguidorDeserializador());
 
         return gsonBuilder.create();
 

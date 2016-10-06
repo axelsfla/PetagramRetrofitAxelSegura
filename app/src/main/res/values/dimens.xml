@@ -7,7 +7,7 @@
     <dimen name="margin_top">20dp</dimen>
     <dimen name="margin_left">10dp</dimen>
     <dimen name="corner_cardview_radius">4dp</dimen>
-    <dimen name="nombre_cardview">20sp</dimen>
+    <dimen name="nombre_cardview">15sp</dimen>
     <dimen name="nombre_unam_cardview">16sp</dimen>
     <dimen name="elevacion_action_bar">4dp</dimen>
     <dimen name="nombre_mascota">25dp</dimen>

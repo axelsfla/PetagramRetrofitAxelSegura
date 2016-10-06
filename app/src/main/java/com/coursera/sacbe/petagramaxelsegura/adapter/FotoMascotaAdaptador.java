@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.coursera.sacbe.petagramaxelsegura.DetalleMascota;
+import com.coursera.sacbe.petagramaxelsegura.DetalleMascotaFoto;
 import com.coursera.sacbe.petagramaxelsegura.R;
 import com.coursera.sacbe.petagramaxelsegura.pojo.FotoMascota;
 import com.coursera.sacbe.petagramaxelsegura.pojo.Mascota;
@@ -59,7 +60,7 @@ public class FotoMascotaAdaptador extends  RecyclerView.Adapter<FotoMascotaAdapt
             @Override
             public void onClick(View v){
                 //Toast.makeText(activity, contacto.getNombre(), Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(activity, DetalleMascota.class);
+                Intent intent = new Intent(activity, DetalleMascotaFoto.class);
                 intent.putExtra(activity.getResources().getString(R.string.pUrl), fotoMascota.getUrlFoto());
                 intent.putExtra(activity.getResources().getString(R.string.pLikes), fotoMascota.getLikesFoto());
                 activity.startActivity(intent);

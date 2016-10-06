@@ -22,7 +22,7 @@ public class DetalleMascotaFoto extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detalle_mascota);
+        setContentView(R.layout.activity_detalle_mascota_foto);
         Bundle parametros = getIntent().getExtras();
         //String nombre = parametros.getString(getResources().getString(R.string.pNombre));
         //String raza = parametros.getString(getResources().getString(R.string.pRaza));
